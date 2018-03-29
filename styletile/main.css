@@ -80,6 +80,16 @@ h6 {
   text-align: left;
 margin-top: -75px
 }
+h7 {
+  font-family: "Helvetica Neue";
+  font-size: 14px;
+  font-style: italic;
+  font-variant: normal;
+  font-weight: lighter;
+  line-height: 19px;
+  text-align: left;
+  margin-top: -75px
+}
 p{
   font-family: "Helvetica Neue";
   font-size: 18px;
@@ -124,20 +134,20 @@ img{
   width: 400px;
   display: block;
   margin-top: 100px;
-  padding-left: 0px;
-  margin-left: 50px;
-  position: relative;
+  padding-top: 100px;
+  margin-left: 60px;
+  position: static;
 }
 .pal{
   padding-left: -50px;
 }
 
-div.popup-holder:hover.popup {
-  display: block;
-}
 .popup{
-  padding-top: -50px;
   display: none;
+}
+
+div.popup-holder:hover .popup {
+  display: block;
 }
 .hov{
   color: #b5b5b5;
@@ -145,4 +155,17 @@ div.popup-holder:hover.popup {
 .hov:hover{
   color: #F4AE01;
   text-decoration: underline;
+}
+
+#imag{
+    height: auto;
+    width: 200px;
+    padding-left: 10px;
+}
+
+#imag:hover {
+    content:  url('img/14.png');
+    height: 320px;
+    width: auto;
+    position: relative;
 }
